@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Hypr Window Switcher",
+  "description": "Search and switch between open windows in Hyprland. (Requires Hyprland)",
+  "developer_name": "oOo-w",
+  "icon": "images/icon.svg",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "switch_kw",
+      "type": "keyword",
+      "name": "Hypr Window Switcher",
+      "description": "Type this keyword followed by space to list your windows.",
+      "default_value": "w"
+    }
+  ]
+}
