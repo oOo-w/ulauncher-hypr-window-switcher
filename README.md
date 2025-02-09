@@ -19,6 +19,12 @@ Install the repo via Ulauncher → Preferences → Extensions → Add Extension
 https://github.com/oOo-w/ulauncher-hypr-window-switcher
 ```
 
+Manual installation
+```bash
+git clone https://github.com/oOo-w/ulauncher-hypr-window-switcher.git
+mv ulauncher-hypr-window-switcher ~/.local/share/ulauncher/extensions/com.github.oOo-w.ulauncher-hypr-window-switcher
+```
+
 ## Usage
 1. Press the shortcut key (default `w`) to open the window switcher.
 2. Type the window title or class name to filter the list of windows.
